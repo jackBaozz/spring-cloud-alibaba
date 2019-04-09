@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-alibaba</artifactId>
-        <version>0.1.2.BUILD-SNAPSHOT</version>
+        <version>1.5.0.BUILD-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -33,7 +33,6 @@
         <module>acm-example/acm-local-example</module>
         <module>rocketmq-example/rocketmq-consume-example</module>
         <module>rocketmq-example/rocketmq-produce-example</module>
-        <module>env-extension</module>
         <module>sms-example</module>
         <module>spring-cloud-bus-rocketmq-example</module>
         <module>schedulerx-example/schedulerx-simple-task-example</module>

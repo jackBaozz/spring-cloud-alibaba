@@ -10,7 +10,7 @@
         <relativePath/>
     </parent>
     <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-    <version>0.1.2.BUILD-SNAPSHOT</version>
+    <version>1.5.0.BUILD-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Spring Cloud Alibaba Dependencies</name>
     <description>Spring Cloud Alibaba Dependencies</description>
@@ -173,22 +173,7 @@
 
             <dependency>
                 <groupId>com.alibaba.fescar</groupId>
-                <artifactId>fescar-core</artifactId>
-                <version>${fescar.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba.fescar</groupId>
-                <artifactId>fescar-common</artifactId>
-                <version>${fescar.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba.fescar</groupId>
                 <artifactId>fescar-spring</artifactId>
-                <version>${fescar.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba.fescar</groupId>
-                <artifactId>fescar-rm-datasource</artifactId>
                 <version>${fescar.version}</version>
             </dependency>
 
@@ -260,6 +245,11 @@
                 <artifactId>spring-cloud-stream-binder-rocketmq</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dubbo</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <!-- Own dependencies - Starters -->
             <dependency>
@@ -325,6 +315,13 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-alicloud-sms</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- Dubbo -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-dubbo</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
